@@ -1,0 +1,21 @@
+.Link {
+  text-decoration: none;
+}
+.icon {
+  margin-right: 10px;
+}
+.menu-style {
+  color: red !important;
+  font-weight: bold;
+  background-color: #383838 !important;
+}
+.menu-stylee {
+  color: red !important;
+  font-weight: bold;
+  background-color: #d7dfe9 !important;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}

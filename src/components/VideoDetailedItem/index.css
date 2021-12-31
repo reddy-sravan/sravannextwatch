@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.dot {
+  font-size: 20px;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+}
+.liked {
+  color: #2563eb !important;
+}
+.normal {
+  color: #64748b;
+}

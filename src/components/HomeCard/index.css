@@ -1,0 +1,20 @@
+.published {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+
+  margin: 0px;
+  margin-top: 7px;
+  padding-left: 9px;
+}
+.link {
+  text-decoration: none;
+  color: #000000;
+}

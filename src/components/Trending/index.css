@@ -1,0 +1,12 @@
+.trendicon {
+  background-color: #94a3b8;
+  font-size: 70px;
+  padding: 20px;
+  border-radius: 35px;
+  color: red;
+  margin-right: 20px;
+}
+
+.trend-dark {
+  background-color: black;
+}

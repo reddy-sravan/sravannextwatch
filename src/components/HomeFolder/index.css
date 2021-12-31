@@ -1,0 +1,35 @@
+.search {
+  font-size: 30px;
+  color: grey;
+  width: 52.5px;
+  background-color: #ebebeb;
+  border-left: 1px solid #7e858e;
+}
+.cross {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  height: 31px;
+  width: 40px;
+  margin: 0px;
+}
+.dark-home {
+  background-color: #181818;
+  color: #f9f9f9;
+}
+.light-home {
+  color: #181818;
+  background-color: #f9f9f9;
+}
+.dark {
+  background-color: #0f0f0f;
+  color: #f9f9f9;
+}
+.light {
+  color: #0f0f0f;
+  background-color: #f9f9f9;
+}

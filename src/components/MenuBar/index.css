@@ -1,0 +1,24 @@
+.Link {
+  text-decoration: none;
+}
+.icon {
+  margin-right: 10px;
+}
+.menu-style {
+  background-color: #cbd5e1;
+  color: red !important;
+  font-weight: bold;
+}
+.dark {
+}
+.Ham {
+  width: 200px;
+}
+.align {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  align-self: flex-end;
+  margin-top: 40px;
+}
