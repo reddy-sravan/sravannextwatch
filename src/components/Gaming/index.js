@@ -98,7 +98,7 @@ class Gaming extends Component {
         </TrendingIcon>
         <TrendingVideos className="un-order">
           {List.map(eachItem => (
-            <GamingCard details={eachItem} />
+            <GamingCard details={eachItem}  />
           ))}
         </TrendingVideos>
       </TrendHome>

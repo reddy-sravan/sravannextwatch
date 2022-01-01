@@ -43,7 +43,8 @@ class Login extends Component {
     history.replace('/')
   }
 
-  LoginClicked = async () => {
+  LoginClicked = async event => {
+    event.preventDefault()
     const {username, password} = this.state
     const userdetails = {
       username,
@@ -90,7 +91,10 @@ class Login extends Component {
             ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
             : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
           return (
-            <LoginMainContainer background={mainbackground}>
+            <LoginMainContainer
+              background={mainbackground}
+              onSubmit={this.LoginClicked}
+            >
               <LoginContainer background={logInBackground}>
                 <NxtWatchLogo src={url} alt="website logo" />
                 <LoginInputsCon>
@@ -123,9 +127,7 @@ class Login extends Component {
                   </PasswordCon>
                 </LoginInputsCon>
 
-                <LoginButton type="submit" onClick={this.LoginClicked}>
-                  Login
-                </LoginButton>
+                <LoginButton type="submit">Login</LoginButton>
                 <ShowPasswordCon>
                   <Checkbox
                     id="checkbox"

@@ -132,7 +132,7 @@ class Home extends Component {
       <HomeContainer>
         <VideosUnorder>
           {List.map(eachItem => (
-            <HomeCard details={eachItem} key={eachItem.id} />
+            <HomeCard details={eachItem} />
           ))}
         </VideosUnorder>
       </HomeContainer>

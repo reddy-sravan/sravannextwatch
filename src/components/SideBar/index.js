@@ -71,7 +71,7 @@ class SideBar extends Component {
       <WatchContext.Consumer>
         {value => {
           const {isDark} = value
-          const Background = isDark ? '#212121' : '#f7f7f7'
+          const Background = isDark ? '#212121' : '#f9f9f9'
 
           const switchcase = id => {
             switch (id) {

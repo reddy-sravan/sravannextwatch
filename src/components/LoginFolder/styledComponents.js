@@ -1,6 +1,6 @@
 import Styled from 'styled-components'
 
-export const LoginContainer = Styled.form`
+export const LoginContainer = Styled.div`
 box-shadow:0px 4px 9px 0px black;
 padding:10px;
 display:flex;
@@ -20,7 +20,7 @@ align-items:flex-start;
 }
 `
 
-export const LoginMainContainer = Styled.div`
+export const LoginMainContainer = Styled.form`
 background-color:${props => props.background};
 display:flex;
 justify-content:center;
